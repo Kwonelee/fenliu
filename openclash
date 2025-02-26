@@ -1,6 +1,6 @@
 config config_subscribe
 	option enabled '1'
-	option name '红杏-自动'
+	option name '示例1-自动'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_convert '1'
 	option template '0'
@@ -26,7 +26,7 @@ config config_subscribe
 
 config config_subscribe
 	option enabled '1'
-	option name '火烧云-自动'
+	option name '示例2-自动'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_convert '1'
 	option template '0'
@@ -42,7 +42,7 @@ config config_subscribe
 
 config config_subscribe
 	option enabled '1'
-	option name '猫耳-自动'
+	option name '示例3-自动'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_convert '1'
 	option template '0'
@@ -63,7 +63,7 @@ config config_subscribe
 
 config config_subscribe
 	option enabled '1'
-	option name '快猫-自动'
+	option name '示例4-自动'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_ua 'clash.meta'
 	option sub_convert '1'
@@ -90,7 +90,7 @@ config config_subscribe
 
 config config_subscribe
 	option enabled '1'
-	option name '牛逼-自动'
+	option name '示例5-自动'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_ua 'clash.meta'
 	option sub_convert '1'
