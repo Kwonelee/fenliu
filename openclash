@@ -1,7 +1,7 @@
 config config_subscribe
 	option enabled '1'
 	option name '示例1-自动'
-	option address '【订阅地址复制并覆盖这里】'
+	option address '【地址复制并覆盖】'
 	option sub_ua 'clash.meta'
 	option sub_convert '1'
 	option template '0'
