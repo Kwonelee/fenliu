@@ -1,5 +1,5 @@
 DOMAIN-SUFFIX,vultr.com
-DOMAIN-SUFFIX,ipw.cn
+# DOMAIN-SUFFIX,ipw.cn
 
 DOMAIN-SUFFIX,cloudflare.com
 # DOMAIN-SUFFIX,fast.com
