@@ -27,7 +27,7 @@ CONFIG_PACKAGE_frps=y
 
 # CONFIG_PACKAGE_luci-app-openclash is not set
 
-# CONFIG_PACKAGE_luci-app-alist is not set
+去掉# CONFIG_PACKAGE_luci-app-alist is not set
 
 # CONFIG_PACKAGE_luci-app-argon-config is not set
 
