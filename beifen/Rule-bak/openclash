@@ -5,7 +5,7 @@ config config_subscribe
 	option sub_ua 'clash.meta'
 	option sub_convert '1'
 	option template '0'
-	option custom_template_url 'https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Cash-My.ini'
+	option custom_template_url 'https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Cash-My.ini'
 	option emoji 'true'
 	option skip_cert_verify 'false'
 	option sort 'false'
