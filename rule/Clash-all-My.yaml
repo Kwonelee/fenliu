@@ -6,7 +6,7 @@
 
 proxy-providers:
 
-  示例1:
+  示例1XXX:
     url: "[订阅地址XXX]"
     type: http
     interval: 86400
@@ -16,7 +16,7 @@ proxy-providers:
       interval: 300
     proxy: 直连 
 
-  示例2:
+  示例2XXX:
     url: "[订阅地址XXX]"
     type: http
     interval: 86400
