@@ -170,9 +170,9 @@ rules:
   - RULE-SET,Telegram / IP,🙋 Telegram,no-resolve
   - RULE-SET,Twitter / Domain,🕊️ Twitter
   - RULE-SET,Netflix / Domain,🎬️ Netflix
+  - RULE-SET,Netflix / IP,🎬️ Netflix,no-resolve
   - RULE-SET,TikTok / Domain,🎵 TikTok
   - RULE-SET,Disney / Domain,📽️ Disney
-  - RULE-SET,Netflix / IP,🎬️ Netflix,no-resolve
   - RULE-SET,PrimeVideo / Domain,🎥 PrimeVideo
   - RULE-SET,TEST / Domain,⏱️ 检测
   - RULE-SET,Proxy / Domain,🌍 国外
