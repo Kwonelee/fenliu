@@ -163,16 +163,17 @@ rules:
   - RULE-SET,TV / Domain,📺 TV
   - RULE-SET,AI / Domain,🤖 AI
   - RULE-SET,Github / Domain,📘 GitHub
+  - RULE-SET,Youtube / Domain,🎞️ YouTube
+  - RULE-SET,Google / Domain,🌐 Google
+  - RULE-SET,Google / IP,🌐 Google,no-resolve
   - RULE-SET,Telegram / Domain,🙋 Telegram
   - RULE-SET,Telegram / IP,🙋 Telegram,no-resolve
   - RULE-SET,Twitter / Domain,🕊️ Twitter
-  - RULE-SET,Youtube / Domain,🎞️ YouTube
-  - RULE-SET,TikTok / Domain,🎵 TikTok
   - RULE-SET,Netflix / Domain,🎬️ Netflix
-  - RULE-SET,Netflix / IP,🎬️ Netflix,no-resolve
+  - RULE-SET,TikTok / Domain,🎵 TikTok
   - RULE-SET,Disney / Domain,📽️ Disney
-  - RULE-SET,Google / Domain,🌐 Google
-  - RULE-SET,Google / IP,🌐 Google,no-resolve
+  - RULE-SET,Netflix / IP,🎬️ Netflix,no-resolve
+  - RULE-SET,PrimeVideo / Domain,🎥 PrimeVideo
   - RULE-SET,TEST / Domain,⏱️ 检测
   - RULE-SET,Proxy / Domain,🌍 国外
   - RULE-SET,Globe / Domain,🌍 国外  
@@ -190,17 +191,17 @@ rule-providers:
   TV / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/TV.list"}
   AI / Domain: {<<: *domain, url: "https://github.geekery.cn/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs"}
   Github / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
+  Youtube / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
+  Google / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
+  Google / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
   Telegram / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
   Telegram / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   Twitter / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/x.mrs"}
-  WhatsApp / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Whatsapp/Whatsapp.list"}
-  Youtube / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
-  TikTok / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
   Netflix / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
   Netflix / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+  TikTok / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
   Disney / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"}
-  Google / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
-  Google / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+  PrimeVideo / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrimeVideo/PrimeVideo.list"}
   TEST / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Check.list"}
   Proxy / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Proxy.list"}
   Globe / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list"} 
