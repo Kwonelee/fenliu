@@ -159,25 +159,25 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
-  - RULE-SET,AI / Domain,AI
-  - RULE-SET,Github / Domain,GitHub
-  - RULE-SET,Telegram / Domain,Telegram
-  - RULE-SET,Telegram / IP,Telegram,no-resolve
-  - RULE-SET,Twitter / Domain,Twitter
-  - RULE-SET,Youtube / Domain,YouTube
-  - RULE-SET,TikTok / Domain,TikTok
-  - RULE-SET,Netflix / Domain,Netflix
-  - RULE-SET,Netflix / IP,Netflix,no-resolve
-  - RULE-SET,Disney / Domain,Disney
-  - RULE-SET,Google / Domain,Google
-  - RULE-SET,Google / IP,Google,no-resolve
-  - RULE-SET,TEST / Domain,Test
-  - RULE-SET,Proxy / Domain,国外
-  - RULE-SET,Globe / Domain,国外  
-  - RULE-SET,Direct / Domain,国内
-  - RULE-SET,China / Domain,国内
-  - RULE-SET,China / IP,国内,no-resolve
-  - RULE-SET,Private / Domain,国内
+  - RULE-SET,AI / Domain,🤖 AI
+  - RULE-SET,Github / Domain,📘 GitHub
+  - RULE-SET,Telegram / Domain,🙋 Telegram
+  - RULE-SET,Telegram / IP,🙋 Telegram,no-resolve
+  - RULE-SET,Twitter / Domain,🕊️ Twitter
+  - RULE-SET,Youtube / Domain,🎞️ YouTube
+  - RULE-SET,TikTok / Domain,🎵 TikTok
+  - RULE-SET,Netflix / Domain,🎬️ Netflix
+  - RULE-SET,Netflix / IP,🎬️ Netflix,no-resolve
+  - RULE-SET,Disney / Domain,📽️ Disney
+  - RULE-SET,Google / Domain,🌐 Google
+  - RULE-SET,Google / IP,🌐 Google,no-resolve
+  - RULE-SET,TEST / Domain,⏱️ 检测
+  - RULE-SET,Proxy / Domain,🌍 国外
+  - RULE-SET,Globe / Domain,🌍 国外  
+  - RULE-SET,Direct / Domain,➡️ 国内
+  - RULE-SET,China / Domain,➡️ 国内
+  - RULE-SET,China / IP,➡️ 国内,no-resolve
+  - RULE-SET,Private / Domain,➡️ 国内
   - MATCH,其他
 
 # ========================
