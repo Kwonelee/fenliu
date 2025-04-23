@@ -14,7 +14,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
+    proxy: DIRECT
 
   示例2XXX:
     url: "[订阅地址XXX]"
@@ -24,11 +24,8 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
+    proxy: DIRECT
 
-proxies:
-  - {name: 直连, type: direct, udp: true, hidden: true}
-  - {name: 拒绝, type: reject, hidden: true}
 
 # ========================
 # 主要端口设置
