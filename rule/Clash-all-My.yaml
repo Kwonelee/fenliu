@@ -24,6 +24,7 @@ proxy-providers:
       interval: 300
     proxy: ➡️ 直连
 
+# 节点信息
 proxies:
   - {name: ➡️ 直连, type: direct}
   - {name: 🚫 拒绝, type: reject}
