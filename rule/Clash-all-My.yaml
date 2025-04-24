@@ -64,7 +64,7 @@ dns:
     - +.local
     - geosite:cn
 
-ipv6: false
+ipv6: true
 
 # ========================
 # TUN 模块
