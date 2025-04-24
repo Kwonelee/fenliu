@@ -5,7 +5,7 @@
 proxy-providers:
 
   示例1XXX:
-    url: "[订阅地址XXX]"
+    url: "订阅地址XXX"
     type: http
     interval: 86400
     health-check:
@@ -15,7 +15,7 @@ proxy-providers:
     proxy: ➡️ 直连
 
   示例2XXX:
-    url: "[订阅地址XXX]"
+    url: "订阅地址XXX"
     type: http
     interval: 86400
     health-check:
