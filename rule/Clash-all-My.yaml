@@ -63,6 +63,7 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
+    - geosite:geolocation-cn
 
 ipv6: true
 
