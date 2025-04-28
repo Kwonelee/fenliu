@@ -63,6 +63,9 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "time.*.com"
 
 ipv6: true
 
