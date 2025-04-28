@@ -155,15 +155,17 @@ rule-providers:
   Github / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
   Youtube / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   Google / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
-  Google / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
   Telegram / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
-  Telegram / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   Twitter / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/x.mrs"}
   Netflix / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
-  Netflix / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
   TikTok / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
   Disney / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"}
   PrimeVideo / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/primevideo.mrs"}
   TEST / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Check.list"}
   Proxy / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Proxy.list"}
   Globe / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list"} 
+  
+  Google / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+  Telegram / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
+  Netflix / IP: {<<: *ip, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+  
