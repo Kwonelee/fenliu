@@ -160,7 +160,7 @@ rule-providers:
   Netflix / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
   TikTok / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
   Disney / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"}
-  PrimeVideo / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/primevideo.mrs"}
+  PrimeVideo / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrimeVideo/PrimeVideo.list"}
   TEST / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Check.list"}
   Proxy / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/Proxy.list"}
   Globe / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list"} 
