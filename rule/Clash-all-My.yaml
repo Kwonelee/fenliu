@@ -148,7 +148,7 @@ rule-anchor:
 
 rule-providers:
   TV / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/TV.list"}
-  AI / Domain: {<<: *domain, url: "https://github.geekery.cn/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs"}
+  AI / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/AI.list"}
   Github / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
   Youtube / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   Google / Domain: {<<: *domain, url: "https://github.geekery.cn/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
