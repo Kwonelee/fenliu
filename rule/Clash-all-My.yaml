@@ -63,9 +63,6 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
-    - "time.*.com"
     - +.quickcht3.club
     - +.sevenka.top
     - +.oneyyds.online
@@ -73,6 +70,9 @@ dns:
     - +.xiaoniuyun.cc
     - +.huawei-cloud.shop
     - +.472361.xyz
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "time.*.com"
 
 ipv6: true
 
