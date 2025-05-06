@@ -15,7 +15,7 @@ on:
         required: false
         default: 'false'
   schedule:
-    - cron: '55 21 * * 0'
+    - cron: '0 19 * * 5'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -66,15 +66,15 @@ jobs:
 
     - name: Package Armvirt as OpenWrt
       if: (!cancelled())
-      uses: Zane-E/openwrt_packit@master
+      uses: Kwonelee/openwrt_packit@master
       env:
-        OPENWRT_ARMVIRT: https://github.com/Zane-E/OP-ARM/releases/download/openwrt_armvirt/openwrt-armvirt-64-generic-rootfs.tar.gz
+        OPENWRT_ARMVIRT: https://github.com/Kwonelee/OP-ARM/releases/download/openwrt_armvirt/openwrt-armvirt-64-generic-rootfs.tar.gz
         PACKAGE_SOC: tvi3315a
-        WHOAMI: Demons
+        WHOAMI: kwonelee
         KERNEL_REPO_URL: https://github.com/ophub/kernel/releases/tag/kernel_stable
         KERNEL_VERSION_NAME: 6.1.1_6.6.1_6.12.1
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        OPENWRT_VER: R25.3.15
+        OPENWRT_VER: R25.4.15
         KERNEL_AUTO_LATEST: true
         GZIP_IMGS: .gz
 
@@ -97,9 +97,9 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
-          - 默认 IP：192.168.1.1  默认密码：password ( WiFi 密码相同 ）
-          - 默认 DTB 文件为超频版 ( 大核 2.0 小核 1.6 ），原 DTB 文件备份在目录中，可自行恢复
-          - 当前使用版本:【 编译前的最后一次➦[主源码](https://github.com/coolsnowwolf/lede)更新记录 】
+          - Default IP: X.X.X.X Default password: password (same as WiFi password)
+          - The default DTB file is the overclocked version (big core 2.0 small core 1.6)
+          - Current version:【 Last time before compiling➦[Main source code](https://github.com/coolsnowwolf/lede)Update Record 】
           ${{ env.useVersionInfo }}
 
     - name: Delete releases and workflows runs
