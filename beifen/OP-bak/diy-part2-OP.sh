@@ -30,10 +30,10 @@ function merge_feed(){
 rm -rf package/custom; mkdir package/custom
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.5.88/g' package/base-files/files/bin/config_generate
 
 # poweroff
-git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
+# git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 
 #主题
 rm -rf feeds/luci/applications/luci-app-argon-config
@@ -53,7 +53,7 @@ git clone -b openwrt-18.06 https://github.com/tty228/luci-app-serverchan.git fee
 
 # luci-app-adguardhome
 rm -rf feeds/kenzo/luci-app-adguardhome
-git clone https://github.com/Zane-E/luci-app-adguardhome.git feeds/kenzo/luci-app-adguardhome
+git clone https://github.com/Kwonelee/luci-app-adguardhome.git feeds/kenzo/luci-app-adguardhome
 
 # filebrowser
 rm -rf feeds/kenzo/luci-app-filebrowser
@@ -66,7 +66,7 @@ rm -rf feeds/luci/applications/luci-app-mosdns
 git clone -b v5-lua https://github.com/sbwml/luci-app-mosdns.git feeds/luci/applications/luci-app-mosdns
 
 # 修改主题背景
-cp -f $GITHUB_WORKSPACE/bg1.jpg feeds/luci/themes/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+# cp -f $GITHUB_WORKSPACE/bg1.jpg feeds/luci/themes/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 cp -f $GITHUB_WORKSPACE/Makefile feeds/small/v2ray-plugin/Makefile
 
