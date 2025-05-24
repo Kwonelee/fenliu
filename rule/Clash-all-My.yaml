@@ -89,10 +89,10 @@ profile:
 # ========================
 default: &default
   type: select
-  proxies: [🚀 默认节点,🔄 所有-自动,🇸🇬 新加坡-故转,🇯🇵 日本-故转,🇭🇰 香港-故转,🇨🇳 台湾-故转,🇰🇷 韩国-故转,🇺🇲 美国-故转,🗺 其他-故转,👉 所有-手动,➡️ 直连,🚫 拒绝]
+  proxies: [🚀 默认节点,🔄 所有-自动,🌐 Webfree-手动,🇸🇬 新加坡-故转,🇯🇵 日本-故转,🇭🇰 香港-故转,🇨🇳 台湾-故转,🇰🇷 韩国-故转,🇺🇲 美国-故转,🗺 其他-故转,👉 所有-手动,➡️ 直连,🚫 拒绝]
 
 proxy-groups:
-  - {name: 🚀 默认节点, type: select, proxies: [🔄 所有-自动,🇸🇬 新加坡-故转,🇯🇵 日本-故转,🇭🇰 香港-故转,🇨🇳 台湾-故转,🇰🇷 韩国-故转,🇺🇲 美国-故转,🗺 其他-故转,👉 所有-手动,➡️ 直连,🚫 拒绝]}
+  - {name: 🚀 默认节点, type: select, proxies: [🔄 所有-自动,🌐 Webfree-手动,🇸🇬 新加坡-故转,🇯🇵 日本-故转,🇭🇰 香港-故转,🇨🇳 台湾-故转,🇰🇷 韩国-故转,🇺🇲 美国-故转,🗺 其他-故转,👉 所有-手动,➡️ 直连,🚫 拒绝]}
   - {name: 📺 TV, <<: *default}
   - {name: 🤖 AI, <<: *default}
   - {name: 📘 GitHub, <<: *default}
@@ -106,7 +106,7 @@ proxy-groups:
   - {name: 🎥 PrimeVideo, <<: *default}
   - {name: ⏱️ 检测, <<: *default}
   - {name: 🌍 国外, <<: *default}
-  - {name: ➡️ 国内, type: select, proxies: [➡️ 直连,🚀 默认节点,🔄 所有-自动,🇸🇬 新加坡-故转,🇯🇵 日本-故转,🇭🇰 香港-故转,🇨🇳 台湾-故转,🇰🇷 韩国-故转,🇺🇲 美国-故转,🗺 其他-故转,👉 所有-手动,🚫 拒绝]}
+  - {name: ➡️ 国内, type: select, proxies: [➡️ 直连,🚀 默认节点,🔄 所有-自动,🌐 Webfree-手动,🇸🇬 新加坡-故转,🇯🇵 日本-故转,🇭🇰 香港-故转,🇨🇳 台湾-故转,🇰🇷 韩国-故转,🇺🇲 美国-故转,🗺 其他-故转,👉 所有-手动,🚫 拒绝]}
   - {name: 👉 所有-手动, type: select, include-all: true, filter: "^((?!(➡️ 直连|🚫 拒绝)).)*$"}
   - {name: 🔄 所有-自动, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(➡️ 直连|🚫 拒绝)).)*$"}
   - {name: 🌐 Webfree-手动, type: select, include-all: true, filter: "(?=.*(webfree)).*$"}
