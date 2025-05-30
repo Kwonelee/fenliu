@@ -108,7 +108,7 @@ proxy-groups:
   - {name: 🌍 国外, <<: *default}
   - {name: ➡️ 国内, type: select, proxies: [➡️ 直连,🚀 默认节点,🔄 所有-智能,🌐 Webfree-手动,🇸🇬 新加坡-智能,🇯🇵 日本-智能,🇭🇰 香港-智能,🇨🇳 台湾-智能,🇰🇷 韩国-智能,🇺🇲 美国-智能,🗺 其他-智能,👉 所有-手动,🚫 拒绝]}
   - {name: 👉 所有-手动, type: select, include-all: true, filter: "^((?!(➡️ 直连|🚫 拒绝)).)*$"}
-  - {name: 🔄 所有-智能, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "^((?!(➡️ 直连|🚫 拒绝)).)*$"}
+  - {name: 🔄 所有-智能, type: smart, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(➡️ 直连|🚫 拒绝)).)*$", url: "http://www.gstatic.com/generate_204", lazy: true, persistent: true}
   - {name: 🌐 Webfree-手动, type: select, include-all: true, filter: "(?=.*(webfree)).*$"}
   - {name: 🇸🇬 新加坡-智能, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广新|新加坡|SG|坡|狮城|🇸🇬|Singapore)).*$"}
   - {name: 🇯🇵 日本-智能, type: url-test, include-all: true, tolerance: 50, interval: 300, filter: "(?=.*(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)).*$"}
