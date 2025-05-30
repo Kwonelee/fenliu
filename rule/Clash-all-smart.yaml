@@ -1,3 +1,5 @@
+# ⭐️⭐️如果遇到无法识别smart策略组则，需要更新openclash内核才能使用此配置。SSH连接OpenWrt后，输入下方内容，然后手动更新。注意手动更新后，不要再openclash内再次更新内核。
+# wget -O smartcore.sh --no-check-certificate https://github.com/666OS/YYDS/raw/main/JS/smartcore.sh && chmod +x smartcore.sh && ./smartcore.sh
 # ========================
 # Clash-ALL
 # ========================
