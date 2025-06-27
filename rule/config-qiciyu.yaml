@@ -9,12 +9,11 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: ➡️ 直连
+    proxy: 直连
 
 # 节点信息
 proxies:
-  - {name: ➡️ 直连, type: direct}
-  - {name: 🚫 拒绝, type: reject}
+  - {name: 直连, type: direct}
 
 # 全局配置 
 port: 7890
