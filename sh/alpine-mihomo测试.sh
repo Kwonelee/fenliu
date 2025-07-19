@@ -51,7 +51,7 @@ chmod +x /etc/init.d/mihomo
 rc-update add mihomo
 
 echo "安装UI"
-git clone https://github.com/metacubex/metacubexd.git -b gh-pages /etc/mihomo/ui
+git clone https://github.com/Zephyruso/zashboard.git -b gh-pages /etc/mihomo/ui
 
 echo "获取懒人配置"
 wget https://wiki.metacubex.one/example/mrs -O /etc/mihomo/config.yaml
