@@ -46,7 +46,7 @@ chmod +x mihomo
 mv mihomo /usr/local/bin/
 
 echo "配置开机启动"
-wget https://raw.githubusercontent.com/cooip-jm/About-openwrt/main/mihomo.openrc -O /etc/init.d/mihomo
+wget https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/sh/mihomo.openrc -O /etc/init.d/mihomo
 chmod +x /etc/init.d/mihomo
 rc-update add mihomo
 
