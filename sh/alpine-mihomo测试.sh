@@ -3,7 +3,7 @@
 #Alpine设置时区和一些基础环境以及mihomo的脚本,。
 ##运行
 ###  apk add wget
-### wget -O - https://raw.githubusercontent.com/cooip-jm/About-openwrt/main/alpine-mihomo.sh | sh -s -- -v
+### wget -O - https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/sh/alpine-mihomo.sh测试 | sh -s -- -v
 ### 
 
 #或者打自己单行复制粘贴执行。
