@@ -14,7 +14,7 @@ proxies:
   - {name: ➡️ 直连, type: direct}
   - {name: 🚫 拒绝, type: reject}
 
-mixed-port: 7890
+mixed-port: 7893
 ipv6: true
 allow-lan: true
 unified-delay: false
