@@ -1,6 +1,6 @@
 #!/bin/bash
 #基础环境
-#Alpine设置时区和一些基础环境以及mihomo的脚本,。
+#Alpine设置时区和一些基础环境以及mihomo的脚本
 ##运行
 ###  apk add wget
 ### wget -O - https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/sh/alpine-mihomo测试.sh | sh -s -- -v
