@@ -2,7 +2,7 @@
 #基础环境
 #Alpine设置时区和一些基础环境的，脚本。
 ##运行
-###  apk add wget
+### apk add wget
 ### wget -O - https://raw.githubusercontent.com/cooip-jm/About-openwrt/main/alpine-bash.sh | sh -s -- -v
 ### 
 
