@@ -1,8 +1,8 @@
 #!/bin/bash
 #基础环境
-#Alpine设置时区和一些基础环境以及mihomo的脚本,。
+#Alpine设置时区和一些基础环境以及mihomo的脚本
 ##运行
-###  apk add wget
+### apk add wget
 ### wget -O - https://raw.githubusercontent.com/cooip-jm/About-openwrt/main/alpine-mihomo.sh | sh -s -- -v
 ### 
 
