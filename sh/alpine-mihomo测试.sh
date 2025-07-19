@@ -56,7 +56,7 @@ git clone https://github.com/Zephyruso/zashboard.git -b gh-pages /etc/mihomo/ui
 echo "获取懒人配置"
 wget https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/sh/mrs -O /etc/mihomo/config.yaml
 ln -s /etc/mihomo/config.yaml /root/config.yaml
-sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mihomo/config.yaml 
+sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mihomo/config.yaml
 
 echo "nano /etc/mihomo/config.yaml 修改配置文件订阅内容"
 
