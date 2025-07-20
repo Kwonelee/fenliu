@@ -1,4 +1,7 @@
-# url 里填写自己的订阅,名称不能重复
+# ========================
+# Clash-ALL
+# ========================
+# 订阅信息
 proxy-providers:
   lzj:
     url: "https://gy.lzj.pp.ua/sub?token=laziji"
@@ -14,59 +17,59 @@ proxies:
   - {name: ➡️ 直连, type: direct}
   - {name: 🚫 拒绝, type: reject}
 
+# ========================
+# 主要端口设置
+# ========================
+port: 7890
+socks-port: 7891
+redir-port: 7892
 mixed-port: 7893
-ipv6: true
+tproxy-port: 7895
+
 allow-lan: true
-unified-delay: false
-tcp-concurrent: true
+mode: rule
+log-level: info
+
 external-controller: 0.0.0.0:9090
 external-ui: /etc/mihomo/ui
-external-ui-url: "https://gh-proxy.com/github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+external-ui-name: zashboard
+external-ui-url: https://gh-proxy.com/github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
+secret: "123456"
 
-find-process-mode: strict
-global-client-fingerprint: chrome
+# ========================
+# DNS 设置
+# ========================
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.20.0.1/16
+  nameserver:
+    - 192.168.5.88:5225
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - geosite:cn
+
+ipv6: true
+
+# ========================
+# TUN 模块
+# ========================
+tun:
+  enable: true
+  stack: mixed
+  device: utun
+  endpoint-independent-nat: true
+  auto-route: false
+  auto-detect-interface: false
+  auto-redirect: false
+  strict-route: false
 
 profile:
   store-selected: true
   store-fake-ip: true
-
-sniffer:
-  enable: true
-  sniff:
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-    TLS:
-      ports: [443, 8443]
-    QUIC:
-      ports: [443, 8443]
-  skip-domain:
-    - "Mijia Cloud"
-    - "+.push.apple.com"
-
-tun:
-  enable: true
-  stack: mixed
-  dns-hijack:
-    - "any:53"
-    - "tcp://any:53"
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
-
-dns:
-  enable: true
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-filter:
-    - "*"
-    - "+.lan"
-    - "+.local"
-    - "+.market.xiaomi.com"
-  default-nameserver:
-    - 223.5.5.5
-  nameserver:
-    - 192.168.5.1
 
 # ========================
 # 策略组定义
