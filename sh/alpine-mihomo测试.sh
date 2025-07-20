@@ -4,7 +4,7 @@
 ##运行
 ### apk add wget
 ### wget -O - https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/sh/alpine-mihomo测试.sh | sh -s -- -v
-### 
+###
 
 #或者打自己单行复制粘贴执行。
 #不限制系统架构
