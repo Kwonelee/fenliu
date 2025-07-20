@@ -76,7 +76,7 @@ tun:
 # DNS模块
 dns:
   enable: true
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:7874
   ipv6: false
   respect-rules: true
   enhanced-mode: fake-ip
