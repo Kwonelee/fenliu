@@ -23,6 +23,16 @@ proxy-providers:
       interval: 300
     proxy: ➡️ 直连
 
+  CF优选:
+    url: ""
+    type: http
+    interval: 86400
+    health-check:
+      enable: false
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: ➡️ 直连
+
 proxies: 
   - {name: ➡️ 直连, type: direct}
   - {name: 🚫 拒绝, type: reject}
