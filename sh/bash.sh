@@ -2,7 +2,7 @@
 #基础环境
 #官方openwrt安装中文、和设置时区和一些基础环境的，脚本。
 ##运行
-### wget -O - https://raw.githubusercontent.com/cooip-jm/About-openwrt/main/bash.sh | sh -s -- -v
+### wget -O - https://raw.githubusercontent.com/Kwonelee/fenliu/refs/heads/main/sh/bash.sh | sh -s -- -v
 ### 
 
 #或者打自己单行复制粘贴执行。
