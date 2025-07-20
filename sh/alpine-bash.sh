@@ -9,7 +9,7 @@
 #或者打自己单行复制粘贴执行。
 #不限制系统架构
 echo "换国内源"
-sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
+sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 apk update
 echo "修正时区/安装curl nano"
 apk add tzdata  curl  nano
