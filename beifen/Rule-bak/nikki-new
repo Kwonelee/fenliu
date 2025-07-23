@@ -230,4 +230,3 @@ config subscription
 	option url '6'
 	option user_agent 'clash.meta'
 	option prefer 'remote'
-
