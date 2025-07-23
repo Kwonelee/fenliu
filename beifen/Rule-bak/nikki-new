@@ -1,13 +1,14 @@
 config status 'status'
 
 config config 'config'
-	option enabled '1'
-	option profile 'file:clash-all-gpt4.1.yaml'
+	option enabled '0'
+	option profile 'subscription:subscription'
 	option start_delay '0'
 	option scheduled_restart '0'
 	option cron_expression '0 3 * * *'
 	option test_profile '1'
 	option fast_reload '0'
+	option core_only '0'
 
 config proxy 'proxy'
 	option enabled '1'
