@@ -8,8 +8,10 @@
 
 🎁 **你的支持是我不断前进的动力！** 💖
 
-<details><summary><strong> [点击展开] 其他推荐 ~🛩️</strong></summary>
+<details>
+<summary><strong> [点击展开] 其他推荐 ~🛩️</strong></summary>
 
+#### 🍭🍭🍭
 > *暂无*
 
 </details> 
