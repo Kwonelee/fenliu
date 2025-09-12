@@ -8,11 +8,11 @@
 
 🎁 **你的支持是我不断前进的动力！** 💖
 
-#<details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
+# <details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
 
-#> *我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
-#> - **TRC20:** `TDizmMPgy7cVUr5GsagkNGxyg2rJgf4FNf`
+# > *我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
+# > - **TRC20:** `TDizmMPgy7cVUr5GsagkNGxyg2rJgf4FNf`
 
-#</details> 
+# </details> 
 
 ✈️ **其他推荐** 🛩️
