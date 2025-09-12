@@ -11,6 +11,5 @@
 <details><summary><strong> [点击展开] 其他推荐 ~🛩️</strong></summary>
 
 > *暂无*
-> - **TRC20:** `TDizmMPgy7cVUr5GsagkNGxyg2rJgf4FNf`
 
 </details> 
