@@ -1,4 +1,4 @@
-| 芯片     | 设备 |
+> | 芯片     | 设备 |
 |----------|------|
 | a311d    | Khadas-VIM3, WXY-OES |
 | s922x    | Beelink-GT-King, Beelink-GT-King-Pro, Ugoos-AM6-Plus, ODROID-N2, X88-King, Ali-CT2000, WXY-OES-Plus |
