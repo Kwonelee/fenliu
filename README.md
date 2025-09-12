@@ -2,7 +2,7 @@
 
 🤖 **Welcome to my GitHub!** 🚀
 
-This is where I explore technologies, share projects, and document my learning journey — every line of code is driven by passion for creation.
+✨ This is where I explore technologies, share projects, and document my learning journey — every line of code is driven by passion for creation.
 
 ✨ **Open source is freedom, collaboration is power** — looking forward to building a better digital world with you.
 
